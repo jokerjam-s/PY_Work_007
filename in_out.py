@@ -14,5 +14,5 @@ def input_float(msg: str) -> float:
 
 def show_msg(msg: str) -> str:
     print(msg)
-    os.system('pfuse')
+    os.system('pause')
 
