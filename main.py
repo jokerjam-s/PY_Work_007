@@ -10,4 +10,21 @@
 # Как вынести функции в модули?
 #
 
+import data_generate as dg
+import data_read_write as drw
+
+# data = dg.data_gen() 
+
+# drw.save_txt('data.txt', data)
+# print(data)
+
+# data = drw.read_txt('data.txt')
+data = drw.read_csv('data.csv')
+print(data)
+
+drw.save_csv('data.csv', data)
+
+
+
+
 
